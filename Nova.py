@@ -6,9 +6,6 @@ from aiogram.filters import Command
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 import os
-
-load_dotenv()
-import os
 API_TOKEN = os.getenv("API_TOKEN")
 
 bot = Bot(token= API_TOKEN)
